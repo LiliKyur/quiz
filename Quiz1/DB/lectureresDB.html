@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #1abc9c;
+  color: white;
+  align-items: center;
+}
+
+.label {
+  color: dark grey;
+  padding: 8px;
+  font-family: Arial;
+}
+#siteInfo input[type="button"] {
+	width: 15%;
+  background: none repeat scroll 0 0 grey;
+  border-color: #FFFFFF #327CB5 #327CB5 #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 3px #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000000;
+}
+</style>
+</head>
+<body>
+	<div class="content">
+<div class="header">
+<h1>Input Student's Results</h1>
+</div>
+<br><br>
+<form>
+  <label class="label" for="fname">First Name</label>
+  <input type="text" id="fname" name="fname" placeholder="Name"><br><br>
+  <label class="label" for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname" placeholder="Surname"><br><br>
+  <label class="label" for="lname">1st Test Result</label>
+  <input type="text" id="lname" name="lname" placeholder="1st Result"><br><br>
+  <label class="label" for="lname">2nd Test Result</label>
+  <input type="text" id="lname" name="lname" placeholder="2nd Result"><br><br>
+  <label class="label" for="lname">3rd Test Result</label>
+  <input type="text" id="lname" name="lname" placeholder="3rd Result"><br><br>
+</form>
+
+<div id="siteInfo">
+  <input type="button" value="Submite">
+</div>
+</div>
+</body>
+</html>
